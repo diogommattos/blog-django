@@ -2,10 +2,6 @@ body{
 	background-color: #eeeeee;
 }
 
-.container{
-	text-align: center;
-}
-
 /* cor dos autores dos posts */
 .card-body .post{
 	color: #2c003e;
