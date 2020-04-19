@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+	<div class="container">
+        <div class="jumbotron jumbotron-fluid">
+          	<div class="container">
+	            <h1 class="display-4">{{ post.title }}</h1>
+				<p class="post">Publicado em {{ post.created_at }} por {{ post.author }}</p>
+			</div>
+		</div>		
+			<p>{{ post.body|linebreaks }}</p>
+	</div> 
+{% endblock %}

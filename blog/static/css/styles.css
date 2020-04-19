@@ -1,0 +1,114 @@
+body{
+	background-color: #eeeeee;
+}
+
+.container{
+	text-align: center;
+}
+
+/* cor dos autores dos posts */
+.card-body .post{
+	color: #2c003e;
+}
+
+/* cor dos autores dos posts */
+.container .post{
+	color: #2c003e;
+
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* cor da barra de navegação */
+.navbar{
+	background-color: #393e46;
+
+}
+
+/* cor fundo do texto BLOG */
+.navbar-brand{
+	background-color: #393e46;
+}
+
+/* cor fundo do texto nos links */
+.navbar-nav{
+	background-color: #393e46;
+}
+
+/* cor do texto BLOG */
+.navbar .navbar-brand {
+	color: #eeeeee;
+}
+
+/* cor seleção link BLOG */
+.navbar .navbar-brand:hover {
+	color: #eeeeee;
+	background-color:#232931;
+
+}
+
+/* cor da fonte na lista de link */
+.navbar .nav-item .nav-link {
+	color: #eeeeee;
+	transition: .5s;
+}
+
+/* cor seleção link */
+.navbar .nav-item .nav-link:hover {
+	background-color: #232931;
+	color: #eeeeee;
+}
+
+.card {
+	margin: auto;
+	border-radius: 0;
+}
+
+.card-img-top {
+	border-radius: 0;
+}
+
+.card .btn-primary {
+	background-color: #29AB87;
+	border-color: #29AB87;
+}
+
+.card .btn-primary:hover {
+	background-color: #00A572;
+	color: #29AB87;
+}
+
+.row .jumbotron {
+	background-color: #4ecca3;
+	color: #FFF;
+	margin-top: 50px;
+}
+
+.card .btn.btn-primary {
+	margin: auto;
+	display: block;
+}
+
+.logged-in-p {
+	background-color: #000;
+	color: #FFF;
+	padding: 10px;
+	width: 100%;
+}
+
+.logged-in-p span {
+	display: block;
+	float: right;
+}
+
+.logged-in-p a {
+	color: #ffe484;
+}
